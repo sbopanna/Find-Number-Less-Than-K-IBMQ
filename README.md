@@ -24,3 +24,4 @@ For E.g., if the largest number is in the range between 8 and 15, then, length o
 
 The Circuit and the Result for the above example problem set:
 
+<img width="328" alt="Screen Shot 2024-03-22 at 2 02 49 PM" src="https://github.com/sbopanna/Find-Number-Less-Than-K-IBMQ/assets/29610175/1dabcac2-cf88-4e63-ae59-313ebe35f436">
