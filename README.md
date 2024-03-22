@@ -1,10 +1,9 @@
 # Find-Number-Less-Than-K-IBMQ
-This is an attempt to find numbers in a list that are less than a reference number using Quantum computer programming.
-This task is a part of skills assessment for the QOSF's Quantum Computing Mentorship Program - cohort 9
+This project, part of the Quantum Open Source Foundation's (QOSF) Quantum Computing Mentorship Program - cohort 9, aims to identify numbers within a list that are less than a reference number using quantum computer programming.
 
 Problem Statement:
 
-Given a positive integer “k” and a list of integer numbers, look for the numbers within the list, that are less than k. Consider an appropriate number of qubits and explain why your proposal is valid for all kinds of numbers in case 
+Given a positive integer "k" and a list of integers, the goal is to find numbers within the list that are less than "k".
 
 Example:
 
@@ -15,7 +14,7 @@ print(A)
 
 Solution:
 
-The problem has been attempted to be solved using the built in IntegerComparator library function available in Qiskit. 
+Utilizing Qiskit's built-in IntegerComparator library function, this project compares integers against a static value, setting the most significant bit (MSB) based on the comparison result.
 
 The IntegerComparator function compares an integer against a static value - the flag 'geq' deteremines if the MSB needs to be set to 1 
 when number is greater or lesser (if geq is True, the MSB is set to 1 when number is greater than the value compared against and if false, the MSB is set to 1 when number is lesser thena the value compared against.
@@ -23,14 +22,13 @@ when number is greater or lesser (if geq is True, the MSB is set to 1 when numbe
 
 Explanation for Qubit Length Determination:
 
-The length of the binary representation for the largest number in the list (list_n) determines the number of qubits required in the comparator circuit and hence the depth of the circuit.
-For E.g., if the largest number is in the range between 8 and 15, then, length of binary string is 4 and hence 4 qubits will be needed, similarly, if largest number is between 16 and 31, then the length of binary string is 5 and hence 5 qubits would be required
+The number of qubits required in the comparator circuit is determined by the length of the binary representation for the largest number in the list. For example, if the largest number falls between 8 and 15, 4 qubits will be needed; similarly, if the largest number is between 16 and 31, 5 qubits would be required.
 
 The following table illustrates as an example, the number of qubits required for a range of numbers that are the largest in the list provided
 
 <img width="669" alt="Screen Shot 2024-03-22 at 2 19 08 PM" src="https://github.com/sbopanna/Find-Number-Less-Than-K-IBMQ/assets/29610175/1adcb3c2-1d48-4076-9a8e-d9dcf135db43">
 
-If we have a comparator value of 7 and the largest number to be comapred in the list is 17, which is represented by the binary string 10001, initially, all the numbers in the range 0 to 31 (00000 - 11111) are generated and compared with the static integer 7, when simulated, the result set that is dervied, has all the integers from 0 to 6 marked as lesser than and this list derived from the quantum circuit result set is compared with the list supplied to determine the existence of the values in the list and hence a determination is made on what numbers in the supplied list are lower than the comparator.
+When a comparator value of 7 is used and the largest number to be compared in the list is 17 (represented by the binary string 10001), the initial step involves generating and comparing all numbers in the range 0 to 31 (00000 - 11111) with the static integer 7. In the simulation, the result set marks all integers from 0 to 6 as lesser than. This derived list from the quantum circuit result set is then compared with the supplied list to determine the existence of values in the list, thereby identifying which numbers in the supplied list are lower than the comparator.
 
 The Circuit and the Result for the problem set provided as a part of the QOSF evaluation:
 
