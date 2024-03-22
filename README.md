@@ -25,3 +25,11 @@ For E.g., if the largest number is in the range between 8 and 15, then, length o
 The Circuit and the Result for the above example problem set:
 
 <img width="328" alt="Screen Shot 2024-03-22 at 2 02 49 PM" src="https://github.com/sbopanna/Find-Number-Less-Than-K-IBMQ/assets/29610175/1dabcac2-cf88-4e63-ae59-313ebe35f436">
+
+
+Example # 2:
+A = less_than_k(25,[2,3,7,9,4,22,25,1,32])
+The Circuit and the Result for the second example problem set:
+
+<img width="385" alt="Screen Shot 2024-03-22 at 2 07 29 PM" src="https://github.com/sbopanna/Find-Number-Less-Than-K-IBMQ/assets/29610175/3712b3e8-b329-4343-a97b-0b899453cbf7">
+
