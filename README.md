@@ -32,7 +32,7 @@ When a comparator value of 7 is used and the largest number to be compared in th
 
 The Circuit and the Result for the problem set provided as a part of the QOSF evaluation:
 
-less_than_k (7,[4,9,11,14,1,13,6,15])
+A = less_than_k (7,[4,9,11,14,1,13,6,15])
 
 <img width="328" alt="Screen Shot 2024-03-22 at 2 02 49 PM" src="https://github.com/sbopanna/Find-Number-Less-Than-K-IBMQ/assets/29610175/1dabcac2-cf88-4e63-ae59-313ebe35f436">
 
