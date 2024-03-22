@@ -36,8 +36,10 @@ The Circuit and the Result for the problem set provided as a part of the QOSF ev
 
 
 Example # 2:
+
 A = less_than_k(25,[2,3,7,9,4,22,25,1,32])
-The Circuit and the Result for the second example problem set:
+
+The Circuit and the Result for this second example problem set:
 
 <img width="385" alt="Screen Shot 2024-03-22 at 2 07 29 PM" src="https://github.com/sbopanna/Find-Number-Less-Than-K-IBMQ/assets/29610175/3712b3e8-b329-4343-a97b-0b899453cbf7">
 
