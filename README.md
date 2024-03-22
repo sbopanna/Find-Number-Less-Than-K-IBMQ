@@ -12,3 +12,6 @@ A = less_than_k (7,[4,9,11,14,1,13,6,15])
 print(A)
 
 “4,1,6”
+
+Solution:
+The problem has been attempted to be solved using the built in IntegerComparator library function available in Qiskit. 
