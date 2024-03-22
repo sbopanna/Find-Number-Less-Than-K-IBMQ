@@ -20,6 +20,7 @@ The problem has been attempted to be solved using the built in IntegerComparator
 The IntegerComparator function compares an integer against a static value - the flag 'geq' deteremines if the MSB needs to be set to 1 
 when number is greater or lesser (if geq is True, the MSB is set to 1 when number is greater than the value compared against and if false, the MSB is set to 1 when number is lesser thena the value compared against.
 
+
 Explanation for Qubit Length Determination:
 
 The length of the binary representation for the largest number in the list (list_n) determines the number of qubits required in the comparator circuit and hence the depth of the circuit.
