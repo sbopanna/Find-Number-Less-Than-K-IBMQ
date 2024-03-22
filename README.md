@@ -23,7 +23,7 @@ when number is greater or lesser (if geq is True, the MSB is set to 1 when numbe
 Explanation for Qubit Length Determination:
 
 The length of the binary representation for the largest number in the list (list_n) determines the number of qubits required in the comparator circuit and hence the depth of the circuit.
-For E.g., if the largest number is in the range between 8 and 15, then, length of binary string is 4 and hence 4 qubits will be needed, else, if largest number is between 16 and 31, then the length of binary string is 5 and hence 5 qubits would be required
+For E.g., if the largest number is in the range between 8 and 15, then, length of binary string is 4 and hence 4 qubits will be needed, similarly, if largest number is between 16 and 31, then the length of binary string is 5 and hence 5 qubits would be required
 
 The Circuit and the Result for the above example problem set:
 
