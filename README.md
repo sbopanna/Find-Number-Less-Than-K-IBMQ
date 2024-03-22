@@ -30,6 +30,7 @@ The following table illustrates as an example, the number of qubits required for
 
 <img width="669" alt="Screen Shot 2024-03-22 at 2 19 08 PM" src="https://github.com/sbopanna/Find-Number-Less-Than-K-IBMQ/assets/29610175/1adcb3c2-1d48-4076-9a8e-d9dcf135db43">
 
+If we have a comparator value of 7 and the largest number to be comapred in the list is 17, which is represented by the binary string 10001, initially, all the numbers in the range 0 to 31 (00000 - 11111) are generated and compared with the static integer 7, when simulated, the result set that is dervied, has all the integers from 0 to 6 marked as lesser than and this list derived from the quantum circuit result set is compared with the list supplied to determine the existence of the values in the list and hence a determination is made on what numbers in the supplied list are lower than the comparator.
 
 The Circuit and the Result for the problem set provided as a part of the QOSF evaluation:
 
