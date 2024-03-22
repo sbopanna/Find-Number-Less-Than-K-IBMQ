@@ -15,3 +15,7 @@ print(A)
 
 Solution:
 The problem has been attempted to be solved using the built in IntegerComparator library function available in Qiskit. 
+
+The IntegerComparator function compares an integer against a static value - the flag 'geq' deteremines if the MSB needs to be set to 1 
+when number is greater or lesser (if geq is True, the MSB is set to 1 when number is greater than the value compared against and if false, the MSB is set to 1 when number is lesser thena the value compared against.
+
