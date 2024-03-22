@@ -53,3 +53,17 @@ The Circuit and the Result for this second example problem set:
 [5] John A. Cortese, Timothy M. Braje "Loading Classical Data into a Quantum Computer"
 [6] Rubens Viana Ramos, Paulo Benício Melo de Sousa and David Sena Oliveira, "Solving mathematical problems with quantum search algorithm"
 [7] Ashish Mandoi, "Quantum Search on an unstructured input -  https://github.com/AsishMandoi/quantum-search"
+
+
+
+# References
+[1] Deutsch, David, and Richard Jozsa. "Rapid solution of problems by quantum computation." Proceedings of the Royal Society of London. Series A: Mathematical and Physical Sciences 439.1907 (1992): 553-558.
+[2] Bernstein, Ethan, and Umesh Vazirani. "Quantum complexity theory." SIAM Journal on computing 26.5 (1997): 1411-1473.
+[3] Grover, Lov K. , "A fast quantum mechanical algorithm for database search", Proceedings of the 28th Annual ACM Symposium on the Theory of Computing (1996), arXiv:quant-ph/9605043
+[4] Qiskit Documentation - https://docs.quantum.ibm.com/api/qiskit/0.26/
+
+[5] John A. Cortese, Timothy M. Braje "Loading Classical Data into a Quantum Computer"
+[6] Rubens Viana Ramos, Paulo Benício Melo de Sousa and David Sena Oliveira, "Solving mathematical problems with quantum search algorithm"
+[7] Ashish Mandoi, "Quantum Search on an unstructured input -  https://github.com/AsishMandoi/quantum-search"
+![image](https://github.com/sbopanna/Find-Number-Less-Than-K-IBMQ/assets/29610175/d64f4f1a-9f0d-4a79-ad5b-44f1bee919a2)
+
