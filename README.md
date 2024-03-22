@@ -40,6 +40,11 @@ Example # 2:
 A = less_than_k(25,[2,3,7,9,4,22,25,1,32])
 
 
+The Circuit and the Result for this second example problem set:
+
+<img width="385" alt="Screen Shot 2024-03-22 at 2 07 29 PM" src="https://github.com/sbopanna/Find-Number-Less-Than-K-IBMQ/assets/29610175/3712b3e8-b329-4343-a97b-0b899453cbf7">
+
+
 # References 
 # [1] Deutsch, David, and Richard Jozsa. "Rapid solution of problems by quantum computation." Proceedings of the Royal Society of London. Series A: Mathematical and Physical Sciences 439.1907 (1992): 553-558.
 # [2] Bernstein, Ethan, and Umesh Vazirani. "Quantum complexity theory." SIAM Journal on computing 26.5 (1997): 1411-1473.
@@ -48,8 +53,3 @@ A = less_than_k(25,[2,3,7,9,4,22,25,1,32])
 # [5] John A. Cortese, Timothy M. Braje "Loading Classical Data into a Quantum Computer"
 # [6] Rubens Viana Ramos, Paulo Benício Melo de Sousa and David Sena Oliveira, "Solving mathematical problems with quantum search algorithm"
 # [7] Ashish Mandoi, "Quantum Search on an unstructured input -  https://github.com/AsishMandoi/quantum-search"
-
-The Circuit and the Result for this second example problem set:
-
-<img width="385" alt="Screen Shot 2024-03-22 at 2 07 29 PM" src="https://github.com/sbopanna/Find-Number-Less-Than-K-IBMQ/assets/29610175/3712b3e8-b329-4343-a97b-0b899453cbf7">
-
