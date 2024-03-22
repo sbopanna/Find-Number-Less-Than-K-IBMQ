@@ -1,18 +1,18 @@
 # Find-Number-Less-Than-K-IBMQ
 This project, part of the Quantum Open Source Foundation's (QOSF) Quantum Computing Mentorship Program - cohort 9, aims to identify numbers within a list that are less than a reference number using quantum computer programming.
 
-#Problem Statement:
+# Problem Statement:
 
 Given a positive integer "k" and a list of integers, the goal is to find numbers within the list that are less than "k".
 
-#Example:
+# Example:
 
 A = less_than_k (7,[4,9,11,14,1,13,6,15])
 print(A)
 
 “4,1,6”
 
-#Solution:
+# Solution:
 
 Utilizing Qiskit's built-in IntegerComparator library function, this project compares integers against a static value, setting the most significant bit (MSB) based on the comparison result.
 
@@ -20,7 +20,7 @@ The IntegerComparator function compares an integer against a static value - the 
 when number is greater or lesser (if geq is True, the MSB is set to 1 when number is greater than the value compared against and if false, the MSB is set to 1 when number is lesser than the value compared against).
 
 
-#Explanation for Qubit Length Determination:
+# Explanation for Qubit Length Determination:
 
 The number of qubits required in the comparator circuit is determined by the length of the binary representation for the largest number in the list. For example, if the largest number falls between 8 and 15, 4 qubits will be needed; similarly, if the largest number is between 16 and 31, 5 qubits would be required.
 
@@ -35,7 +35,7 @@ The Circuit and the Result for the problem set provided as a part of the QOSF ev
 <img width="328" alt="Screen Shot 2024-03-22 at 2 02 49 PM" src="https://github.com/sbopanna/Find-Number-Less-Than-K-IBMQ/assets/29610175/1dabcac2-cf88-4e63-ae59-313ebe35f436">
 
 
-#Example # 2:
+# Example # 2:
 
 A = less_than_k(25,[2,3,7,9,4,22,25,1,32])
 
