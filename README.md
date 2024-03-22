@@ -25,10 +25,12 @@ Explanation for Qubit Length Determination:
 The length of the binary representation for the largest number in the list (list_n) determines the number of qubits required in the comparator circuit and hence the depth of the circuit.
 For E.g., if the largest number is in the range between 8 and 15, then, length of binary string is 4 and hence 4 qubits will be needed, similarly, if largest number is between 16 and 31, then the length of binary string is 5 and hence 5 qubits would be required
 
+The following table illustrates as an example, the number of qubits required for a range of numbers that are the largest in the list provided
+
 <img width="669" alt="Screen Shot 2024-03-22 at 2 19 08 PM" src="https://github.com/sbopanna/Find-Number-Less-Than-K-IBMQ/assets/29610175/1adcb3c2-1d48-4076-9a8e-d9dcf135db43">
 
 
-The Circuit and the Result for the above example problem set:
+The Circuit and the Result for the problem set provided as a part of the QOSF evaluation:
 
 <img width="328" alt="Screen Shot 2024-03-22 at 2 02 49 PM" src="https://github.com/sbopanna/Find-Number-Less-Than-K-IBMQ/assets/29610175/1dabcac2-cf88-4e63-ae59-313ebe35f436">
 
